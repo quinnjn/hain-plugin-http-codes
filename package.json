@@ -2,17 +2,25 @@
   "name": "hain-plugin-http",
   "version": "0.1.0",
   "description": "A Hain plugin to quickly look up http codes",
-  "main": "index.js",
+  "author": "quinnjn <quinn@neumiiller.com>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quinnjn/hain-plugin-http-codes"
+  },
+  "bugs": {
+    "url": "https://github.com/quinnjn/hain-plugin-http-codes/issues"
   },
   "keywords": [
     "hain",
     "hain-plugin",
     "plugin",
-    "http"
+    "http",
+    "http codes"
   ],
-  "author": "quinnjn",
   "license": "MIT",
   "hain": {
     "prefix": "/http ",
