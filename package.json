@@ -1,0 +1,23 @@
+{
+  "name": "hain-plugin-http",
+  "version": "0.1.0",
+  "description": "A Hain plugin to quickly look up http codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hain",
+    "hain-plugin",
+    "plugin",
+    "http"
+  ],
+  "author": "quinnjn",
+  "license": "MIT",
+  "hain": {
+    "prefix": "/http ",
+    "usage": "Type /http and then a query to see http code responses",
+    "icon": "#fa fa-code",
+    "redirect": "/http "
+  }
+}
